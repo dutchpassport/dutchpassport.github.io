@@ -34,7 +34,7 @@ label{color:#1A1A1A}
 .cta-button{align-items:center;justify-content:center;background-color:#5A6D90;color:#fff !important;padding:10px 20px;border:none;border-radius:6px;text-decoration:none;font-size:18px;font-weight:bold;cursor: pointer;transition: background-color 0.3s ease;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);width:auto}
 .cta-button img{width:20px;height:20px;margin-right:10px;position:relative;top:3px}
 .cta-button:hover{background-color:#4B5A78}
-
+p{font-size:15px}
 .responsive-video {
   position: relative;
   padding-bottom: 56.25%;
