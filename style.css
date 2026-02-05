@@ -58,7 +58,7 @@ p{font-size:17px}
 .call{left:calc(100% - 260px)}
 .telegram{left:calc(100% - 346px)}
 .centerDiv{width:100%}
-.centerDiv a{display:block;margin:2px 0;padding:2px 0;width:fit-content}
+.centerDiv a{margin:2px 0;padding:2px 0}
 }
 @media (max-width:1280px){
 .header-image{background:url('../header-image-medium.jpg');width:100%;height:257px;top:65px}
