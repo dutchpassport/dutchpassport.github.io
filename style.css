@@ -22,7 +22,7 @@ label{color:#1A1A1A}
 .footer img{position:relative;top:12px}
 .footer a{color:#333 !important}
 .centerDiv{max-width:900px;margin:0 auto;position:relative}
-.centerDiv a{color:#880000;margin-right:10px;border-bottom: 1px solid #D3D3D3;text-decoration:none}
+.centerDiv a{color:#880000;border-bottom: 1px solid #D3D3D3;text-decoration:none}
 .nap{margin-top:24px;font-style:italic;color:#333}
 .nap a{margin:0;padding:0 !important;text-decoration:none}
 .faq, .ctaBox{width:100%;padding:18px 18px 26px 18px;height:auto;margin:30px 0;background:#FFF;color:#000 !important;border-radius:10px;box-sizing:border-box;border:1px solid #F2F2F2}
