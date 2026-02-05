@@ -57,11 +57,24 @@
 
 </header> 		
 	<main>
-		<div class="header-image">
+		<div class="header">
 		
-		<div class="usp">
-		SameClean Cleaning Services
-		</div>
+  <video autoplay muted loop playsinline poster="fallback.jpg">
+    <!-- Mobiel video (klein) -->
+    <source src="video-mobile.mp4" type="video/mp4" media="(max-width: 768px)">
+    <source src="video-mobile.webm" type="video/webm" media="(max-width: 768px)">
+    
+    <!-- Tablet video (medium) -->
+    <source src="video-tablet.mp4" type="video/mp4" media="(min-width: 769px) and (max-width: 1200px)">
+    <source src="video-tablet.webm" type="video/webm" media="(min-width: 769px) and (max-width: 1200px)">
+    
+    <!-- Desktop video (groot) -->
+    <source src="video-desktop.mp4" type="video/mp4" media="(min-width: 1201px)">
+    <source src="video-desktop.webm" type="video/webm" media="(min-width: 1201px)">
+    
+    <!-- Fallback afbeelding -->
+    Je browser ondersteunt geen video. <img src="fallback.jpg" alt="Header afbeelding">
+  </video>
 		
 		
 		</div>
