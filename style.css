@@ -115,78 +115,46 @@ form{padding:0px;background:#F5F5F5}
 }
 
 
-  .header-video {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    overflow: hidden; /* snijdt video boven/onder af */
+.header-video {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertical centering */
+  z-index: 1; /* boven andere background elements */
+}
+
+.header-video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header-video .header-content {
+  z-index: 2;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: normal; /* gebruik flexbox centrering */
+  padding: 0 10px;
+}
+
+/* Responsive tekst op mobiel */
+@media (max-width: 768px) {
+  .header-video .header-content {
+    font-size: 1.2rem;
+    line-height: 200px;
+    padding: 0 10px;
   }
-
-  /* Video in header */
-  .header-video video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    object-fit: cover; /* vult header volledig, snijdt af waar nodig */
-    z-index: -1;
-  }
-
-  /* Optionele content bovenop de video */
-  .header-content {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    line-height: 200px; /* verticale centrering */
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  .header-video {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    overflow: hidden; /* snijdt video boven/onder af */
-  }
-
-  /* Video in header */
-  .header-video video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    object-fit: cover; /* vult header volledig, snijdt af waar nodig */
-    z-index: -1;
-  }
-
-  /* Optionele content bovenop de video */
-  .header-content {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    line-height: 200px; /* verticale centrering */
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  /* Responsive tekst */
-  @media (max-width: 768px) {
-    .header-content {
-      font-size: 1.2rem;
-      line-height: 200px;
-      padding: 0 10px;
-    }
-  }
-
-
+}
 
