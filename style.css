@@ -35,7 +35,7 @@ label{color:#1A1A1A}
 .cta-button img{width:20px;height:20px;margin-right:10px;position:relative;top:3px}
 .cta-button:hover{background-color:#4B5A78}
 p{font-size:17px}
-h1{text-transform: uppercase;align:center}
+h1{text-transform: uppercase;text-align: center}
 .responsive-video {
   position: relative;
   padding-bottom: 56.25%;
