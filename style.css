@@ -1,8 +1,8 @@
 @font-face {font-family: "Montserrat-fallback";size-adjust: 113.55999999999995%;ascent-override: 82%;src:local("Arial")}
 @font-face {font-family: "Montserrat";src: url("montserrat-regular.woff");font-display:swap}
 body{ font-family: Montserrat, Montserrat-fallback, Sans Serif, Verdana;padding:0;margin:0;background:#EFEFEF;color:#1A1A1A;letter-spacing:.3px}
-main{width:100%;float:left;position:relative;background:#F5F5F5;padding-bottom:70px}
-.container{max-width:900px;height:auto;position:relative;margin:0 auto;padding:14px;line-height:30px;top:68px}
+main{width:100%;float:left;position:relative;background:#F5F5F5;padding-bottom:100px}
+.container{max-width:900px;height:auto;position:relative;margin:0 auto;padding:14px;line-height:30px;top:80px}
 .container img{max-width:100%;object-fit:contain;border-radius:15px;height:auto}
 .container a{color:#880000;text-decoration:none;position:relative;border-bottom: 1px solid #D5D5D5}
 img, .container img{object-fit:contain}
