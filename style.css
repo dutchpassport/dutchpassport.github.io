@@ -6,7 +6,6 @@ main{width:100%;float:left;position:relative;background:#F5F5F5;padding-bottom:7
 .container img{max-width:100%;object-fit:contain;border-radius:15px;height:auto}
 .container a{color:#880000;text-decoration:none;position:relative;border-bottom: 1px solid #D5D5D5}
 img, .container img{object-fit:contain}
-.header-image{background:url('../header-image.jpg');width:100%;height:300px;position:relative;top:64px;background-repeat:no-repeat;background-position:center center}
 .usp, .usp2{left:36%;top:120px;position:relative;color:#000;font-size:38px;width: calc(100% - 36%)}
 form{background:#FFF;padding:20px;border-radius:8px;margin-top:10px;border:1px solid #F1F1F1;margin-bottom:20px}
 input, textarea, select{width:100%;margin:10px 0;border:1px solid #D3D3D3;border-radius:5px;padding:8px;font-size:18px;margin-bottom:2px;box-sizing:border-box}
@@ -83,11 +82,11 @@ form{padding:0px;background:#F5F5F5}
 .dropdown:hover .dropdown-content{display:block}
 .dropdown:hover .dropbtn{background-color:#820000}
 .header a{color:#7d0303}
-.header{background-color:#880000;box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);position:fixed;width:100%;z-index:9999}
-.header ul{margin:0;padding:0;list-style:none;overflow:hidden;background-color:#880000}
+.header{background-color:#000;box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);position:fixed;width:100%;z-index:9999}
+.header ul{margin:0;padding:0;list-style:none;overflow:hidden;background-color:#777}
 .header li a{display:block;padding:20px 20px;text-decoration:none;color:#fff}
 .header li a:hover,
-.header .menu-btn:hover{background-color:#820000;color:#FFF}
+.header .menu-btn:hover{background-color:#333;color:#FFF}
 .header .logo{display:block;float:left;font-size:2em;padding-left:10px;text-decoration:none;position:relative;top:9px}
 .header .menu{clear:both;max-height:0;transition:max-height .2s ease-out}
 .header .menu-icon{cursor:pointer;display:inline-block;float:right;padding:28px 20px;position:relative;user-select:none}
