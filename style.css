@@ -21,7 +21,7 @@ label{color:#1A1A1A}
 .footer{width:100%;padding:20px 15px;float:left;position:relative;box-sizing:border-box}
 .footer img{position:relative;top:12px}
 .footer a{color:#333 !important}
-.centerDiv{max-width:900px;margin:0 auto;position:relative}
+.centerDiv{max-width:128px;margin:0 auto;position:relative}
 .centerDiv a{color:#880000;border-bottom: 1px solid #D3D3D3;text-decoration:none}
 .nap{margin-top:24px;font-style:italic;color:#333}
 .nap a{margin:0;padding:0 !important;text-decoration:none}
