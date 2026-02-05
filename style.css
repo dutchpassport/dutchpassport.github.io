@@ -116,7 +116,7 @@ form{padding:0px;background:#F5F5F5}
 }
 
 
-  .header {
+  .header-video {
     position: relative;
     width: 100%;
     height: 200px;
@@ -124,7 +124,7 @@ form{padding:0px;background:#F5F5F5}
   }
 
   /* Video in header */
-  .header video {
+  .header-video video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -148,7 +148,7 @@ form{padding:0px;background:#F5F5F5}
     font-weight: bold;
   }
 
-  .header {
+  .header-video {
     position: relative;
     width: 100%;
     height: 200px;
@@ -156,7 +156,7 @@ form{padding:0px;background:#F5F5F5}
   }
 
   /* Video in header */
-  .header video {
+  .header-video video {
     position: absolute;
     top: 50%;
     left: 50%;
