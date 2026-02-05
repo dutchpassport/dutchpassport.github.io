@@ -154,7 +154,7 @@ form{padding:0px;background:#F5F5F5}
 @media (max-width: 768px) {
   .header-video .header-content {
     font-size: 2rem;
-    line-height: 50px;
+    line-height: 44px;
     padding: 0 10px;
   }
 }
